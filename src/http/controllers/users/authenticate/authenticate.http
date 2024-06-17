@@ -1,0 +1,15 @@
+# CREATE USER
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+# ADMIN USER
+{
+  "email": "elaradamasceno@teste.com",
+  "password": "123456"
+}
+
+# MEMBER USER
+# {
+#   "email": "johndoes@example.com",
+#   "password": "123456"
+# }

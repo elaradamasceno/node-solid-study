@@ -1,0 +1,5 @@
+# PROFILE
+get http://localhost:3333/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNTVlYjYzOS03Mjk4LTRiMjAtOGNkNi0wYjNiYzI2NWQ1MzUiLCJpYXQiOjE3MTgwNDU2MzJ9.Uy8L_DAox2KxlYFAqiuEEdB70tUxTtucqPRSO8hwk0s
+

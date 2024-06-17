@@ -1,0 +1,12 @@
+# CREATE GYM
+post http://localhost:3333/gyms
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiIzNGFlZWRmYS0wOWY1LTQ0ODQtOTkyZi0zM2MwNTMyZDA1ZWYiLCJpYXQiOjE3MTg2NDg4NzAsImV4cCI6MTcxODY0OTQ3MH0.LLmmS8HCLg0W0Ht61LCpBclXz4nxKSaxQ19Fn4lcNOw
+
+{
+  "title": "Name Gym",
+  "description": "Description Gym",
+  "phone": "1699999999",
+  "latitude": -21.2188969,
+  "longitude": -47.8250239
+}

@@ -56,9 +56,3 @@ My Node.js study project with Solid simulates a 'GymPass' system, integrating Pr
 -->
 
 <!-- docker start solid-node-study-api-solid  -->
-
-# solid-node-study
-# solid-node-study
-# node-solid-study
-# node-solid-study
-# node-solid-study

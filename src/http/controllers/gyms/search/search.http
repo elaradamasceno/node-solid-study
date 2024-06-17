@@ -1,0 +1,8 @@
+# CREATE GYM
+post http://localhost:3333/gyms
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNTVlYjYzOS03Mjk4LTRiMjAtOGNkNi0wYjNiYzI2NWQ1MzUiLCJpYXQiOjE3MTgzMDYxNjJ9.JEaEK1l2VoNTOYXVzR15Vvxwz4H64J0JQ56mrX74lK4
+
+{
+  "query": "Gym",
+}
