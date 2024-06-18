@@ -3,24 +3,34 @@
 GymPass style app.
 
 ## About the project
+This Node.js study project simulates a 'GymPass' system using the Solid principles. It integrates Prisma ORM, implements Refresh Token authentication, applies design patterns, and includes both unit and end-to-end (E2E) tests. The project also incorporates CI pipeline integration for automated testing.
 
-My Node.js study project with Solid simulates a 'GymPass' system, integrating Prisma ORM, Refresh Token authentication, applying design patterns, and implementing both unit and E2E tests.
+## Technologies
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Fastify**: A fast and low-overhead web framework for Node.js.
+- **ZOD**: A TypeScript-first schema declaration and validation library.
+- **JWT**: JSON Web Token, a standard for securely transmitting information between parties as a JSON object.
+- **Vitest**: A blazing fast unit test framework powered by Vite.
+- **Prisma ORM**: An open-source database toolkit for TypeScript and Node.js that aims to make app development faster and more reliable.
+- **Docker**: A platform for developing, shipping, and running applications inside lightweight, portable containers.
 
 ## Commands
+
+To run and test the project, use the following commands:
 ```sh
-  npm run start:dev
-  npm run test
-  npm run test:e2e
-  npm run test:coverage
+  docker compose up -d    # Start the Docker containers
+  npm run start:dev       # Start the development server
+  npm run test            # Run all tests
+  npm run test:e2e        # Run end-to-end tests
+  npm run test:coverage   # Generate test coverage report
  ``` 
+
 
 ## Setup:
 ```sh
-  docker compose up -d
-
-  npx prisma studio
-  npx migrate dev
-  npx prisma generate
+  npx prisma studio        # Open Prisma Studio to visualize and manage data
+  npx prisma migrate dev   # Apply database migrations in development environment
+  npx prisma generate      # Generate Prisma Client based on the data model
 ```
 
 ## RFs (Functional Requirements)
@@ -56,3 +66,4 @@ My Node.js study project with Solid simulates a 'GymPass' system, integrating Pr
 -->
 
 <!-- docker start solid-node-study-api-solid  -->
+
